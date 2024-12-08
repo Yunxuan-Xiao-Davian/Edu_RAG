@@ -1,93 +1,62 @@
-# Welcome to your Lovable project
+Welcome to the Academic Research Assistant Project
+Project Overview
+URL: Academic Research Assistant
 
-## Project info
+This project presents a state-of-the-art, self-adaptive Retrieval-Augmented Generation (RAG) system for academic research. Designed to dynamically retrieve and integrate relevant scholarly documents, the system enhances academic workflows by providing accurate, context-aware answers to complex research queries. Key features include:
 
-**URL**: https://lovable.dev/projects/292df2ee-41be-485d-aea7-1c7a97cfdffe
+Dynamic Document Retrieval: Seamlessly retrieves relevant academic documents from a variety of sources using advanced embedding-based similarity matching.
+Context-Adaptive Window: Automatically adjusts the context window based on document relevance, ensuring precise, contextually rich responses.
+Multi-LLM Support: Integrated support for multiple LLM providers, including OpenAI, Deepseek, and Groq, ensuring flexible and scalable model interactions.
+Custom Knowledge Base Integration: Users can manually add documents to build their own custom knowledge base, making the system highly customizable for specific research needs.
+Technologies & Frameworks
+This cutting-edge application leverages modern AI and web technologies, including:
 
-## About this Project
+Vite, TypeScript, React for seamless front-end performance and dynamic user interfaces
+shadcn-ui & Tailwind CSS for a modern, responsive design
+Hugging Face Transformers for powerful embeddings and language model interactions
+Multiple LLM Providers: OpenAI, Deepseek, Groq for optimal model performance
+API-Driven Architecture: Easy-to-configure API keys for robust integration with external systems
+How to Edit the Project
+There are several ways you can contribute to the project:
 
-This is an Academic Research Assistant that implements a self-adaptive RAG (Retrieval-Augmented Generation) system. The application:
+Use Lovable: The most convenient option! Simply visit the Lovable Project and start prompting. Changes made via Lovable are automatically committed to the repository.
 
-- Dynamically retrieves relevant academic documents based on user queries
-- Uses embedding-based similarity matching for document retrieval
-- Adapts its context window based on document relevance
-- Supports multiple LLM providers (OpenAI, Deepseek, Groq)
-- Allows manual document addition for custom knowledge bases
+Use your IDE: Clone the repository to your local machine and work with your preferred development tools. Pushed changes will reflect on Lovable after being committed.
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/292df2ee-41be-485d-aea7-1c7a97cfdffe) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+bash
+复制代码
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
+GitHub Direct Edit: Edit files directly in GitHub with the in-browser editor.
 
-**Edit a file directly in GitHub**
+GitHub Codespaces: Launch a Codespace for an in-browser, fully integrated development environment.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Deployment
+Deploying the project is simple! Open Lovable, click on Share -> Publish, and your application is ready for use.
 
-**Use GitHub Codespaces**
+Custom Domain Support
+While custom domain support isn't available yet, you can deploy this project on Netlify under your own domain. Learn more in our docs: Custom Domains.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+API Keys Configuration
+To use the system’s LLM capabilities, you’ll need API keys for the supported providers. Follow these steps:
 
-## What technologies are used for this project?
+Click the API Settings button within the app.
+Add your API keys for OpenAI, Deepseek, or Groq.
+The API keys are securely stored in your browser's localStorage for privacy and security.
 
-This project leverages modern web technologies and AI capabilities:
+This introduction now highlights the project’s advanced capabilities, its technological depth, and the strong academic and technical focus of the project, with the author being from HKUST (GZ).
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-- Hugging Face Transformers (for embeddings)
-- Multiple LLM providers support (OpenAI, Deepseek, Groq)
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/292df2ee-41be-485d-aea7-1c7a97cfdffe) and click on Share -> Publish.
 
-## I want to use a custom domain - is that possible?
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
 
-## API Keys Configuration
-
-To use the LLM features, you'll need to configure your API keys:
-
-1. Click the API Settings button in the application
-2. Add your API keys for any of the supported providers:
-   - OpenAI
-   - Deepseek
-   - Groq
-
-The keys are stored securely in your browser's localStorage.
