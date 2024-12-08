@@ -105,10 +105,10 @@ This project implements a self-adaptive **Retrieval-Augmented Generation (RAG)**
 git clone <YOUR_GIT_URL>
 cd <YOUR_PROJECT_NAME>
 Install Dependencies:
-bash
+```bash
 npm install
 Start the Development Server:
-bash
+```bash
 npm run dev
 Access the API:
 Access the API via http://localhost:3000 (default port).
