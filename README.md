@@ -104,3 +104,42 @@ This project implements a self-adaptive **Retrieval-Augmented Generation (RAG)**
 ```bash
 git clone <YOUR_GIT_URL>
 cd <YOUR_PROJECT_NAME>
+Install Dependencies:
+bash
+npm install
+Start the Development Server:
+bash
+npm run dev
+Access the API:
+Access the API via http://localhost:3000 (default port).
+
+How to Deploy
+Dockerize the Application:
+Build Docker images for the application:
+
+bash
+docker build -t academic-research-assistant .
+Deploy to Cloud:
+Deploy using cloud providers like AWS, Azure, or GCP.
+Set up Kubernetes for auto-scaling and deployment.
+Set Up API Gateway:
+Configure API Gateway (e.g., Kong, AWS API Gateway) for secure and efficient routing.
+Contributing
+We welcome contributions to this project. If you'd like to contribute, please fork the repository and submit a pull request with your changes.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Author
+This project is developed by researchers from HKUST (GZ).
+
+rust
+
+This should now be fully formatted for GitHub's markdown rendering. Feel free to use it!
+
+
+
+
+
+
+
